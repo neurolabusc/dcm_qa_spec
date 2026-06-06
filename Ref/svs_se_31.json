@@ -3138,9 +3138,11 @@
 	"NumberOfKSpaceTrajectories": 64,
 	"SpectralWidth": 2000,
 	"DwellTime": 0.0005,
-	"TransmitterFrequency": 297.155,
+	"SpectrometerFrequency": 297.155,
 	"ResonantNucleus": "1H",
-	"SpectroscopyAcquisitionDataColumns": 1024,
+	"NumberOfSpectralPoints": 1024,
+	"AcquisitionVoxelSize": [20, 20, 20],
+	"NumberOfTransients": 1,
 	"MRSpectroscopyAcquisitionType": "SINGLE_VOXEL",
 	"ImageOrientationPatientDICOM": [
 		-0.999925,
@@ -3151,5 +3153,5 @@
 		-0.0911049	],
 	"BidsGuess": ["mrs","_svs"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260604"
+	"ConversionSoftwareVersion": "v1.0.20260605"
 }
